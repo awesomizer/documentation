@@ -1,7 +1,7 @@
 Configuration
 =============
 
-Miniflux doesn't use any config file, **only environment variables**.
+Miniflux configuration is achieved by setting key/value pairs in the file `/etc/miniflux.conf`.  These are then made available to the application as environment variables.
 
 - :code:`DEBUG`: Toggle debug output (default is off)
 - :code:`WORKER_POOL_SIZE`: Number of background processes (default=5)
